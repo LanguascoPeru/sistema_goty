@@ -1,0 +1,44 @@
+
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 2;
+    }
+ 
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-columns {
+        column-count: 3;
+    }
+ 
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-columns {
+        column-count: 3;
+    }
+ 
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-columns {
+        column-count: 4;
+    }
+ 
+    .container {
+        max-width: 1140px;
+    }
+}
+
+.card-img-top{
+  height: 150px;
+}

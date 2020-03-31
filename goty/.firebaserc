@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "firestore-grafica-78adc": {
+      "hosting": {
+        "goty": [
+          "firestore-grafica-78adc"
+        ]
+      }
+    }
+  }
+}

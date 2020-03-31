@@ -1,0 +1,15 @@
+<h2> Game of the year !</h2>
+<hr>
+<div class="row">
+    <div class="col">
+        <app-grafico-barra-horizontal  [listaJuegos] = "juegos">
+            
+        </app-grafico-barra-horizontal>
+    </div>
+</div>
+<br>
+<ul>
+    <li class="text" *ngFor="let item of juegos ">
+      {{item.name}}
+    </li>
+  </ul>

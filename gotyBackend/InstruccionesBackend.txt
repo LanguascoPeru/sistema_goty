@@ -1,0 +1,16 @@
+abrir 3 terminales
+1 terminal: 
+navegar hasta cd functions/lib
+ejecutar comando -> tsc --watch
+para que se transpile el codigo de typeScript a javascript de manera 
+automatica.
+
+2 terminal
+navegar hasta cd functions
+ejecurtar comando -> firebase serve  
+para probar en modo desarrollo.
+
+3 terminal 
+en la raiz del proyecto -> E:\Julio\angular\gotybackend
+ejecutar comando firebase deploy 
+para subir los cambios a produccion.

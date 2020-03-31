@@ -1,0 +1,9 @@
+
+.char-container{
+    display: grid;
+    height: 300px;
+}
+
+.dark .ngx-charts text {
+    fill: red;
+}
